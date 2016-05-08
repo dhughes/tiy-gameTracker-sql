@@ -3,16 +3,24 @@
  */
 public class Game {
 
-    String name;
-    String genre;
-    String platform;
-    int releaseYear;
+    // public property for an integer id
 
-    public Game(String name, String genre, String platform, int releaseYear) {
-        this.name = name;
-        this.genre = genre;
-        this.platform = platform;
-        this.releaseYear = releaseYear;
-    }
+
+    // public property for name
+
+
+    // public property for genre
+
+
+    // public property for platform
+
+
+    // public property for releaseYear
+
+
+
+    // create a constructor for all 5 properties.
+
 
 }
+

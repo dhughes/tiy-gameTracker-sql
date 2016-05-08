@@ -7,7 +7,7 @@
     <div style="color: red">{{error}}</div>
 {{/error}}
 
-<form action="/create-game" method="post">
+<form action="{{action}}" method="post">
     <div>
         <input type="text" name="gameName" placeholder="Game name" value="{{gameName}}">
     </div>
@@ -21,7 +21,9 @@
         <input type="text" name="gameYear" placeholder="Release year" value="{{gameYear}}">
     </div>
 
-    <button type="submit">Add game</button>
+    <input type="hidden" name="gameId" value="{{gameId}}">
+
+    <button type="submit">Save game</button>
 </form>
 
 </body>
